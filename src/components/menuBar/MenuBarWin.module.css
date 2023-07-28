@@ -1,0 +1,101 @@
+.wrapperWin {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 3000px;
+  max-width: 100%;
+  height: 44px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  backdrop-filter: blur(10px);
+
+  transition: 0.3s ease-in-out;
+  z-index: 9999;
+  background: rgba(245, 245, 245, 0.15);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(81.5485px);
+  transition: 0.5s ease-in-out;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ul > li > img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.ul > li > img:hover {
+  transform: scale(1.2);
+}
+
+.bounceAnimation {
+  animation: bounce 0.5s infinite alternate;
+}
+
+
+/*----------*/
+.wrapper_inner_right {
+  position: fixed;
+  top: 96%;
+  right: 1px;
+  width: 400px; /* Ajusta el ancho según sea necesario */
+  height: 5vh; /* Establece la altura al 100% del alto de la ventana del navegador */
+  display: flex;
+  flex-direction: row; /* Cambia la dirección del flex a fila (horizontal) */
+  align-items: center;
+  justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+
+  backdrop-filter: blur(10px);
+ 
+  z-index: 9999;
+  overflow: hidden; /* Evita que el contenido se desborde */
+  background: rgba(245, 245, 245, 0.15);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(81.5485px);
+  transition: 0.5s ease-in-out;
+  
+}
+
+.right_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.right_ul li {
+  margin-right: 10px; /* Agrega un poco de espacio entre cada elemento */
+}
+
+.right_ul li:last-child {
+  margin-right: 0; /* Elimina el espacio del último elemento */
+}
+
+.right_ul li img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.right_ul li img:hover {
+  transform: scale(1.2);
+}
+
+.right_ul li span {
+  color: #fff; /* Establece el color del texto en blanco */
+  font-size: 14px;
+}
