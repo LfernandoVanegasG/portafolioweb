@@ -2,10 +2,12 @@ const menuBarData = [
     {
       id: "1",
       image: "/images/windows/iconswindows.png",
+      URL: "#!"
     },
     {
       id: "2",
       image: "/images/menubarimages/microsoftedge.png",
+      URL: "#!"
     },
     {
       id: "3",

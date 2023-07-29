@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {colors}  from "../../styles/colors";
 
 export const ContainerProjects = styled.div`
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding-top: 20px;
     @media (max-width: 768){
@@ -24,7 +24,7 @@ export const Title = styled.h2`
 
 export const ContentProject =styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
     @media (max-width: 768px){
         grid-template-columns: repeat(2,1fr);

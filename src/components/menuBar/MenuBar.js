@@ -22,7 +22,7 @@ const MenuBar = () => {
       setClickedMenuItem(0);
     }, 7000);
 
-    window.open(URL, "_blank");
+    //window.open(URL, "_blank");
   };
 
   if (!menuBarOpen) {
